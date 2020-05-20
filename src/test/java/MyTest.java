@@ -27,8 +27,11 @@ public class MyTest {
 //        int i = booKMapper.updateBook(book);
 //        System.out.println(i);
 
-        int i = booKMapper.deleteBookById(4);
-        System.out.println(i);
+//        int i = booKMapper.deleteBookById(4);
+//        System.out.println(i);
+
+        Book book = booKMapper.queryBooKByName("MySQL");
+        System.out.println(book);
 
 //        Class.forName("com.mysql.jdbc.Driver");
 //
